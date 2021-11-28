@@ -1,0 +1,1000 @@
+ 2525  vi nglat.c
+ 2526  less latin_hex.txt
+ 2527  fg
+ 2528  gcc -O3 -o nglat nglat.c -lm
+ 2529  ./pore-lat1
+ 2530  cat lat.words |  ./ptest-outk uggenflsexbeu | ./nglat
+ 2531  cat lat.words |  ./ptest-outk uggenflsexbeu | ./nglat | sort -n
+ 2532  cat lat.words |  ./ptest-outk uggenflsexbeu | ./nglat | sort -n | tail -1
+ 2533  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest-outk $w | ./nglat | sort -n | tail -1 ; done | less
+ 2534  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest-outk $w | ./nglat | sort -n | tail -1 ; done 
+ 2535  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo -n $w' '; cat lat.words | ./ptest-outk $w | ./nglat | sort -n | tail -1 ; done 
+ 2536  cat lat.words | ./ptest-outk ysmkudzdtbt
+ 2537  cat lat.words | ./ptest-outk ysmkudzdtbt | less
+ 2538  cat lat.words | ./ptest-outk ysmkudzdtbt | wc -l
+ 2539  echo ysmkudzdtbt | wc
+ 2540  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo -n $w' '; cat lat.words | ./ptest-outk $w | ./nglat | sort -n | tail -1 ; done > dee2.bestkeys
+ 2541  cat lat.words | ./ptest-outk yogybnobttpnze
+ 2542  cat lat.words | ./ptest-outk yogybnobttpnze | wc -l
+ 2543  echo yogybnobttpnze | wc
+ 2544  cat lat.words | ./ptest 
+ 2545  cat lat.words | ./ptest yogybnobttpnze
+ 2546  cat lat.words | ./ptest-outk yogybnobttpnze | ./nglat | sort -n | tail -1
+ 2547  cat lat.words | ./ptest-outk yogybnobttpnze | md5sum
+ 2548  vi ptest-outk.c
+ 2549  make ptest-outk
+ 2550  vi ptest-outk.c
+ 2551  make ptest-outk
+ 2552  ./pore-lat1
+ 2553  cat lat.words | ./ptest-outk yogybnobttpnze | md5sum
+ 2554  cat lat.words | ./ptest-outk yogybnobttpnze 
+ 2555  vi ptest-outk.c
+ 2556  make ptest-outk
+ 2557  ./pore-lat1
+ 2558  cat lat.words | ./ptest-outk yogybnobttpnze 
+ 2559  vi ptest-outk.c
+ 2560  make ptest-outk
+ 2561  ./pore-lat1
+ 2562  cat lat.words | ./ptest-outk yogybnobttpnze 
+ 2563  vi ptest-outk.c
+ 2564  make ptest-outk
+ 2565  ./pore-lat1
+ 2566  cat lat.words | ./ptest-outk yogybnobttpnze 
+ 2567  cat lat.words | ./ptest-outk yogybnobttpnze   | md5sum
+ 2568  vi ptest-outk.c
+ 2569  splint ptest-outk.c
+ 2570  vi ptest-outk.c
+ 2571  make ptest-outk
+ 2572  ./pore-lat1
+ 2573  cat lat.words | ./ptest-outk yogybnobttpnze   | md5sum
+ 2574  cat lat.words | ./ptest-outk yogybnobttpnze   
+ 2575  vi ptest-outk.c
+ 2576  cat lat.words | ./ptest-outk blh
+ 2577  cat lat.words | ./ptest-outk blhdfsadfsaf
+ 2578  cat lat.words | ./ptest-outk 
+ 2579  cat lat.words | ./ptest-outk yogybnobttpnze   
+ 2580  history | grep sort
+ 2581  vi ptest.c
+ 2582  make ptest
+ 2583  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w ; done | less
+ 2584  q
+ 2585  gf
+ 2586  fg
+ 2587  q
+ 2588  fg
+ 2589  cat dee2 | grep zyce | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w ; done | less
+ 2590  cat dee2 | grep zyce | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}'
+ 2591  cat dee2  | tr ' ' '\n' | grep zyce | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w ; done | less
+ 2592  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w ; done | less
+ 2593  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w | head -1 ; done 
+ 2594  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w | head -1 ; done  | grep eria
+ 2595  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptest $w | head -1 ; done  > ptest.top
+ 2596  awk NF==3 ptest.top
+ 2597  awk NF==3 ptest.top | awk 'length >= 4 {print $NF}'
+ 2598  awk NF==3 ptest.top | awk 'length >= 4 {print $NF}'  | sort | uniq -c | sort -n
+ 2599  awk NF==3 ptest.top 
+ 2600  awk NF==3 ptest.top  | awk '{print $NF}'
+ 2601  awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -nr
+ 2602  awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -n
+ 2603* awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -nr | les
+ 2604  awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -n | less
+ 2605  awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -n | awk '{print $NF}'
+ 2606  awk NF==3 ptest.top  | awk '{print $NF}' | awk '{print length,$0}' | sort -n | awk '{print $NF}' > ptt
+ 2607  for i in `cat ptt`; do grep -c $i ptt; done
+ 2608  for i in `cat ptt`; do echo -n $i' '; grep -c $i ptt; done 
+ 2609  for i in `cat ptt`; do echo -n $i' '; grep -c $i ptt; done  | awk '$NF > 1'
+ 2610  grep eria ptt
+ 2611  vi ptest-outk.c
+ 2612  vi ptest-fix.c
+ 2613  vi ptestfix.c
+ 2614  make ptestfix
+ 2615  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w | head -1 ; done  
+ 2616  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w | head -1 ; done   > ptestfix.top
+ 2617  less ptestfix.top
+ 2618  awk NF==3 ptestfix.top | less
+ 2619  awk NF==3 ptest.top | less
+ 2620  awk NF==3 ptest.top | awk '{print $NF}'
+ 2621  awk NF==3 ptest.top | awk '{print $NF}' | tr -d '\n'
+ 2622  awk NF==3 ptest.top | awk '{print $NF}' | tr -d '\n'; echo > ptest11
+ 2623  (awk NF==3 ptest.top | awk '{print $NF}' | tr -d '\n'; echo) > ptest11
+ 2624  ./la 3 < ptest11
+ 2625  ./la 3 < ptest11 | sort | uniq -c | sort -n
+ 2626  awk NF==3 ptestfix.top | awk '{print $NF}' | tr -d '\n'; echo > ptest22
+ 2627  (awk NF==3 ptestfix.top | awk '{print $NF}' | tr -d '\n'; echo) > ptest22
+ 2628  ./la 3 < ptest22 | sort | uniq -c | sort -n
+ 2629  ./la 4 < ptest22 | sort | uniq -c | sort -n
+ 2630  ./la 5 < ptest22 | sort | uniq -c | sort -n
+ 2631  ./la 6 < ptest22 | sort | uniq -c | sort -n
+ 2632  ./la 5 < ptest22 | sort | uniq -c | sort -n
+ 2633  grep lsugz ptest22
+ 2634  grep lsugz ptest.top
+ 2635  grep lsugz ptestfix.top
+ 2636  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w | grep lsugzzgs ; done   
+ 2637  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w | grep lsugzzgs ; done    | awk 'NF > 1'
+ 2638  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w  ; done    | tr -d '\n' > ptestfix.all
+ 2639  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w  ; done    | awk 'NF > 2 {print $NF}' | tr -d '\n' > ptestfix.all
+ 2640  less ptestfix.all
+ 2641  ./la 8 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2642  cat dee2 | tr ' ' '\n' | awk 'length > 6 {print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w  ; done    | awk 'NF > 2 {print $NF}' | tr -d '\n' > ptestfix.all
+ 2643  ./la 8 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2644  ./la 7 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2645  ./la 6 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2646  less tail
+ 2647  less ptestfix.all
+ 2648  less ptestfix.top
+ 2649  awk 'NF > 2' ptestfix.top
+ 2650  awk 'NF > 2' ptestfix.top | awk '{print $NF}'
+ 2651  awk 'NF > 2' ptestfix.top | awk '{print $NF}' | awk 'length>5'
+ 2652  (awk 'NF > 2' ptestfix.top | awk '{print $NF}' | awk 'length>5' | tr -d '\n'; echo) > ptxx2
+ 2653  ./la 5 < ptxx2
+ 2654  ./la 5 < ptxx2 | sort | uniq -c | sort -n
+ 2655  ./la 6 < ptxx2
+ 2656  ./la 6 < ptxx2 | sort | uniq -c | sort -n
+ 2657  grep lsugzz ptestfix.top
+ 2658  grep gsceoz ptestfix.top
+ 2659  grep eozeio ptestfix.top
+ 2660  grep ceozei ptestfix.top
+ 2661  less ptest.top
+ 2662  (awk 'NF > 2' ptest.top | awk '{print $NF}' | awk 'length>5' | tr -d '\n'; echo) > ptxx1
+ 2663  ./la 6 < ptxx1 
+ 2664  ./la 6 < ptxx1  | sort | uniq -c | sort -n
+ 2665  ./la 5 < ptxx1  | sort | uniq -c | sort -n
+ 2666  grep atcel ptxx1
+ 2667  grep atcel ptest.top
+ 2668  grep tcell ptest.top
+ 2669  ls -ltr
+ 2670  echo coqizyce | ./ptestfix
+ 2671  cat lat.words | ./ptest coqizyce
+ 2672  cat lat.words | ./ptest coqizyce | head
+ 2673  cat lat.words | ./ptest agzyce | head
+ 2674  ls -ltr *c
+ 2675  cp ptest-outk.c ptestfix-outk.c
+ 2676  vi ptestfix-outk.c
+ 2677  make ptestfix-outk
+ 2678  cat lat.words | ./ptestfix-outk iubtyxpedk
+ 2679  vi ptestfix-outk.c
+ 2680  ./porefix
+ 2681  ./porefix   naturaliter zzgsceozeio
+ 2682  vi ptestfix-outk.c
+ 2683  make ptestfix-outk
+ 2684  ./porefix   naturaliter zzgsceozeio
+ 2685  vi porefix.c
+ 2686  vi ptestfix.c
+ 2687  less ptest.c
+ 2688  less pore.c
+ 2689  fg
+ 2690  make ptestfix
+ 2691  cat dee2 | tr ' ' '\n' | awk '{print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w | head -1 ; done   > ptestfix.top
+ 2692  less ptestfix.top
+ 2693  history | grep fix.top
+ 2694  (awk 'NF > 2' ptestfix.top | awk '{print $NF}' | awk 'length>5' | tr -d '\n'; echo) > ptxx2
+ 2695  history | grep ptxx2
+ 2696  ./la 6 < ptxx2 | sort | uniq -c | sort -n
+ 2697  grep ngtcep ptestfix.top
+ 2698  ./porefix naturaliter nngtcepneip
+ 2699  vi ptest.c
+ 2700  grep cepnei ptestfix.top
+ 2701  grep epneip ptestfix.top
+ 2702  grep ltwgnn ptestfix.top
+ 2703  ./porefix beneficio ltwgnngtc
+ 2704  history
+ 2705  history | grep all
+ 2706  cat dee2 | tr ' ' '\n' | awk 'length > 6 {print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w  ; done    | awk 'NF > 2 {print $NF}' | tr -d '\n' > ptestfix.all
+ 2707  ./la 8 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2708  ./la 10 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2709  ./la 11 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2710  ./la 12 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2711  ./la 13 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2712  ./la 14 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2713  grep targenyt ptestfix.all
+ 2714  cat dee2 | tr ' ' '\n' | awk 'length > 6 {print length,$0}' | sort -nr | awk '{print $2}' | while read w; do echo $w; cat lat.words | ./ptestfix $w  ; done    | awk 'NF > 2 ' > ptestfix.find
+ 2715  grep targenyt ptestfix.find
+ 2716  ./la 9 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2717  grep wtgcggnle ptestfix.find
+ 2718  grep zyce ptestfix.find
+ 2719  grep zyce dee2
+ 2720  cat lat.words | ./ptestfix agzyce
+ 2721  cat lat.words | ./ptestfix agzyce | head
+ 2722  cat lat.words | ./ptestfix cogizyce | head
+ 2723  cat lat.words | ./ptestfix puyicogizyce | head
+ 2724  ./la 8 < ptestfix.all | sort | uniq -c | sort -n | tail
+ 2725  ./la 8 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; done
+ 2726  ./la 9 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; done
+ 2727  ./la 8 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; done
+ 2728  ./la 8 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; echo; done
+ 2729  ./la 8 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; echo; done > ptestfix.check
+ 2730  vi ptestfix.check
+ 2731  jobs
+ 2732  history
+ 2733  ./la 9 < ptestfix.all | sort | uniq -c | sort -nr | awk '$1 >= 3 {print $2}' | while read w; do grep $w ptestfix.find; echo; done > ptestfix.check
+ 2734  vi ptestfix.check
+ 2735  ./ptestfix-outk
+ 2736  cat lat.words | ./ptestfix-outk gtdldpspewk
+ 2737  vi ptestfix-outk.c
+ 2738  less ptestfix.c
+ 2739  fg
+ 2740  make ptestfix
+ 2741  make ptestfix-outk
+ 2742  cat lat.words | ./ptestfix-outk gtdldpspewk
+ 2743  cat lat.words | ./ptestfix-outk gtdldpspewk | less
+ 2744  cat lat.words | ./ptestfix-outk gtdldpspewk | ./nglat
+ 2745  cat lat.words | ./ptestfix-outk gtdldpspewk | ./nglat | sort -n
+ 2746  cat lat.words | ./ptestfix-outk gtdldpspewk | ./nglat | sort -n | tail
+ 2747  vi ptestfix-outk.c
+ 2748  echo naturaliter | ./ptestfix-outk gtdldpspewk | ./nglat | sort -n | tail
+ 2749  echo naturaliter | ./ptestfix-outk gtdldpspewk | ./nglat | sort -nr | less
+ 2750  less ptestfix.tpo
+ 2751  less ptestfix.top
+ 2752  cat dee.words
+ 2753  cat dee2
+ 2754  cat dee2.words 
+ 2755  cat dee2.words  | less
+ 2756  vi dee2.words
+ 2757  cat lat.words | ./ptestfix iabbnobs
+ 2758  cat lat.words | ./ptestfix iabbnobs | head
+ 2759  ls -ltr  *words*
+ 2760  ls -l dee*
+ 2761  less deelat
+ 2762  cat dee2.words
+ 2763  less deelat
+ 2764  cat dee2.words
+ 2765  cat dee2.words | while read w; do
+ 2766  less dee2.words
+ 2767  less deelat
+ 2768  cat dee2.words | while read w; do cat deelat | ./ptestfix $w | head -1; done
+ 2769  cat dee2.words | while read w; do cat deelat | ./ptestfix $w | head -1; done > deelat.out
+ 2770  cat deelat.out
+ 2771  cat deelat.out | awk '{print $NF}'
+ 2772  cat deelat.out | awk '{print $NF}' | tr -d '\n'
+ 2773  (cat deelat.out | awk '{print $NF}' | tr -d '\n'; echo) > deelat.proc
+ 2774  ./la 8 < deelat.proc
+ 2775  ./la 8 < deelat.proc | sort | uniq -c | sort -n
+ 2776  ./la 9 < deelat.proc | sort | uniq -c | sort -n
+ 2777* grep 
+ 2778  ./la 7 < deelat.proc | sort | uniq -c | sort -n
+ 2779  ./la 7 < deelat.proc | sort | uniq -c | sort -nr | awk '{print $2}' | while read w; do grep $w deelat.out ; echo > deelat.read
+ 2780  ./la 7 < deelat.proc | sort | uniq -c | sort -nr | awk '{print $2}' | while read w; do grep $w deelat.out ; echo ; done > deelat.read
+ 2781  vi deelat.read
+ 2782  fg
+ 2783  sort fg | uniq -c | sort -n
+ 2784  sort deelat.read | uniq -c | sort -n
+ 2785  grep gyiy ptestfix.all
+ 2786  grep gyiy ptestfix.find
+ 2787  grep nwlw ptestfix.find
+ 2788  jobs
+ 2789  echo multiplicatur | ./ptestfix xlofzmrorslab
+ 2790  echo multiplicatur | ./ptestfix-outk xlofzmrorslab
+ 2791  echo multiplicatur | ./ptestfix-outk xlofzmrorslab | ./nglat |sort -n
+ 2792  grep ltwg ptestfix.find
+ 2793  cat dee2.words | while read w; do cat deelat | ./ptestfix $w | head -1; done
+ 2794  cat lat.words | ./ptestfix hmgyx | head 
+ 2795  cat deelat | ./ptestfix hmgyx | head 
+ 2796  head -2 dee2
+ 2797  cat dee2.words | while read w; do cat lat.words | ./ptestfix $w | head -1; done
+ 2798  cat dee2.words | while read w; do cat lat.words | ./ptestfix $w | head -1; done > lat.guess
+ 2799  cat dee2.words | while read w; do cat deelat | ./ptestfix $w | head -1; done > deelat.guess
+ 2800  wc -l lat.guess
+ 2801  wc -l deelat.guess
+ 2802  cat lat.guess deelat.guess
+ 2803  cat lat.guess deelat.guess | sort | uniq -c | sort -n
+ 2804  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep bnob
+ 2805  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep ozxk
+ 2806  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep wpbp
+ 2807  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep rqwaid
+ 2808  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep rogs
+ 2809  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep bpka
+ 2810  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep hmgyx
+ 2811  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep qgdz
+ 2812  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep agwzq
+ 2813  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep epmta
+ 2814  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep egdogn
+ 2815  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep hxbcy
+ 2816  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep iqbft
+ 2817  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep agp
+ 2818  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep turba
+ 2819  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep xxra
+ 2820  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep gtdld
+ 2821  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep kkxn
+ 2822  grep kkxn dee2.words
+ 2823  cat lat.words | ./ptestfix nonslpkkxn
+ 2824  cat lat.words | ./ptestfix nonslpkkxn | head
+ 2825  cat lat.words | ./ptestfix xzdpp | head
+ 2826  cat lat.guess deelat.guess | sort | uniq -c | sort -n | grep sak
+ 2827  ./la 9 < dex
+ 2828  ./la 9 < dex | less
+ 2829  ./la 9 < dex | while read w; do ./porefix
+ 2830  ./porefix
+ 2831  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done
+ 2832  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done | ./nglat
+ 2833  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done | ./nglat | sort -n
+ 2834  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done | grep -n xteritate
+ 2835  ./la 9 < dex | sed -n 376p
+ 2836  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done | grep -n usquamatt
+ 2837  ./la 9 < dex | sed -n 466p
+ 2838  vi big
+ 2839  ./la 15 < dex | while read w; do ./porefix $w ltwgnngtcepneip; done | sort -n
+ 2840  ./la 15 < dex | while read w; do ./porefix $w ltwgnngtcepneip; done | sort -n | ./nglat | sort -n
+ 2841  ./la 15 < dex | while read w; do ./porefix $w ltwgnngtcepneip; done | sort -n | ./nglat > ltwg
+ 2842  ./la 15 < dex
+ 2843  ./la 15 < dex > dex.15
+ 2844  paste dex.15 ltwg
+ 2845  paste dex.15 ltwg | awk 'NF > 2'
+ 2846  paste dex.15 ltwg | awk 'NF > 2' | sort -k2n
+ 2847  cat lat.words | ./ptestfix xzdpp
+ 2848  cat lat.words | ./ptestfix xzdpp | less
+ 2849  cat lat.words | ./ptestfix xzdpp | grep igne
+ 2850  ./la 16 < dex | while read w; do ./porefix $w cltwgnngtcepneip; done | sort -n | ./nglat > ltwg
+ 2851  ./la 16 < dex > dex.16
+ 2852  paste dex.16 ltwg | awk 'NF > 2' | sort -k2n
+ 2853  grep etocuzpssa dee
+ 2854  grep etocuzpssa dee2
+ 2855  grep etocuzpssa dex
+ 2856  grep zpssa dee2
+ 2857  grep lzba dee2
+ 2858  grep lzba dex
+ 2859  grep -i lzba dex
+ 2860  grep -i lzba dee2
+ 2861  cat dee2
+ 2862  cat lat.words | ./ptestfix kmflzbam
+ 2863  cat lat.words | ./ptestfix kmflzbam |less
+ 2864  cat lat.words | ./ptestfix kmflzbam | head
+ 2865  cat dee2
+ 2866  ./porefix partibus   cepneip
+ 2867  ./porefix kmflzbam cepneip
+ 2868  ./porefix kmflzbam tcepneip
+ 2869  ./porefix kmflzbam pneip
+ 2870  ./porefix kmflzbam gtcpneip
+ 2871  ./porefix skcdxtsqcohoruu ltwgnngtcepneip
+ 2872  ./porefix mercuriipartibu ltwgnngtcepneip
+ 2873  history
+ 2874  wc -l dex.16
+ 2875  wc -l ltwg
+ 2876  less ltwg
+ 2877  vi ltwg
+ 2878  paste dex.16 ltwg | awk 'NF > 2' | sort -k2n
+ 2879  paste dex.16 ltwg | awk 'NF > 2' | less
+ 2880  paste dex.16 ltwg | awk 'NF > 2' | grep natur
+ 2881  ./porefix ignemnaturaliter  cltwgnngtcepneip
+ 2882  paste dex.16 ltwg | awk 'NF > 2' | grep xzdpp
+ 2883  ./la 16 < dex | while read w; do ./porefix $w cltwgnngtcepneip; done > ltwg
+ 2884  paste dex.16 ltwg | awk 'NF > 2' | grep natur
+ 2885  paste dex.16 ltwg | awk 'NF > 2' | grep natural
+ 2886  less ltwg
+ 2887  ./nglat < ltwg > ltwg.ng
+ 2888  vi ltwg.ng
+ 2889  paste dex.16 ltwg.ng | awk 'NF > 2' | grep natural
+ 2890  paste dex.16 ltwg.ng | awk 'NF > 2' | sort -k2n
+ 2891  ./la 17 < dex | while read w; do ./porefix $w cltwgnngtcepneipt; done > ltwg
+ 2892  ./la 17 < dex > dex.17
+ 2893  ./nglat < ltwg > ltwg.ng
+ 2894  vi ltwg.ng
+ 2895  paste dex.17 ltwg.ng | awk 'NF > 2' | sort -k2n
+ 2896  ./la 9 < dex | while read w; do ./porefix $w wtgcggnle; done > wtg
+ 2897  less wtg
+ 2898  wc -l wtg
+ 2899  ./la 9 < dex > dex.9
+ 2900  ./nglat < wtg > wtg.ng
+ 2901  vi wtg.ng
+ 2902  paste dex.9 wtf.ng | awk 'NF > 2' | sort -k2n
+ 2903  paste dex.9 wtg.ng | awk 'NF > 2' | sort -k2n
+ 2904  jobs
+ 2905  ls -ltr
+ 2906  ls -ltr *.c
+ 2907  cp ptestfix-outk.c outk.c
+ 2908  vi outk.c
+ 2909  make outk
+ 2910  vi outk.c
+ 2911  make outk
+ 2912  ./outk ce
+ 2913  ./outk ltwgnngtcepneipt
+ 2914  ./outk ltwgnngtcepneipt | grep ^lux
+ 2915  ./outk ltwgnngtcepneipt | grep ^lux | ./nglat
+ 2916  ./outk ltwgnngtcepneipt | grep ^lux | ./nglat | sort -n | tail
+ 2917  ./outk ltwgnngtcepneipt | grep ^lux | ./nglat | sort -n | awk '$1 == -80.384347'
+ 2918  ./la 10 < dex > dex.10
+ 2919  ./la 10 < dex | while read w; do ./porefix $w cwtgcggnle; done > cwtg
+ 2920  ./nglat < cwtg > cwtg.ng
+ 2921  paste dex.10 cwtg.ng | awk 'NF > 2' | sort -k2n
+ 2922  history | grep ltwg
+ 2923  ./la 8 < dex > dex.8
+ 2924  ./la 8 < dex | while read w; do ./porefix $w ppcwtgcg; done > pp
+ 2925  less pp
+ 2926  ./nglat < pp > pp.ng
+ 2927  vi pp.ng
+ 2928  paste pp.ng pp
+ 2929  paste pp.ng dex.8
+ 2930  paste pp.ng dex.8 | sort -n
+ 2931  paste  dex.8 pp.ng | sort -n
+ 2932  paste  dex.8 pp.ng | sort -k2n
+ 2933  echo ppcwtgcggnle | wc
+ 2934  ./la 12 < dex | while read w; do ./porefix $w ppcwtgcggnle; done > pp
+ 2935  ./la 12 < dex > dex.12
+ 2936  ./nglat < pp > pp.ng
+ 2937  paste  dex.12 pp.ng | sort -k2n
+ 2938  vi pp.ng
+ 2939  paste  dex.12 pp.ng | sort -k2n
+ 2940  ./pore irogsblzsbpkaysai cltwgnngtcepneipt
+ 2941  ./pore xmercuriipartibus cltwgnngtcepneipt
+ 2942  ./pore xmercuriipartibus ltwgnngtcepneipt
+ 2943  history | grep ltwg
+ 2944  paste dex.17 ltwg.ng | awk 'NF > 2' | sort -k2n
+ 2945  ./porefix xmercuriipartibus cltwgnngtcepneipt
+ 2946  grep xzdpp dex
+ 2947  grep -i xzdpp dex
+ 2948  ./porefix ignemnaturaliterd cltwgnngtcepneipt
+ 2949  cat lat.9
+ 2950  ls -l *.9
+ 2951  less latn.9
+ 2952  cat latn.10 | ./ptestfix nonslpkkxn
+ 2953  cat latn.10 | ./ptestfix nonslpkkxn | head
+ 2954  cat latn.5 | ./ptestfix hmgyx | head
+ 2955  cat latn.5 | ./ptestfix hmgyx | grep " irpcn" | head
+ 2956  grep ^.x latn.2 | head
+ 2957  grep ^.x$ lat.words
+ 2958  less lat.words
+ 2959  grep " .x$" lat.words
+ 2960  ./porefix si ac
+ 2961  ./porefix si cc
+ 2962  cat latn.5 | ./ptestfix hmgyx | grep " irpcn" | head
+ 2963  cat latn.5 | ./ptestfix hmgyx | head
+ 2964  cat latn.5 | ./ptestfix hmgyx | head -100 | wc -l
+ 2965  cat latn.5 | ./ptestfix hmgyx | head -100 > hmgyx.100
+ 2966  cat latn.5 | ./ptestfix nonsl | head -100 > nonsl.100
+ 2967  cat nonsl.100 hmgyx.100 | sort | uniq -c | sort -n
+ 2968  cat latn.5 | ./ptestfix hmgyx | head -100  | awk '{print $3}' > hmgyx.100
+ 2969  cat latn.5 | ./ptestfix nonsl | head -100  | awk '{print $3}' > nonsl.100
+ 2970  cat nonsl.100 hmgyx.100 | sort | uniq -c | sort -n
+ 2971  cat latn.6 | ./ptestfix kufrtl | head
+ 2972  cat latn.5 | ./ptestfix hmgyx | head
+ 2973  cat latn.6 | ./ptestfix vkqgdz | head
+ 2974  cat latn.8 | ./ptestfix ozxkwxfg | head
+ 2975  cat lat.words | ./ptestfix ozxkwxfg | head
+ 2976  history | grep non
+ 2977  cat latn.10 | ./ptestfix nonslpkkxn | head
+ 2978  cat lat.words | ./ptestfix nonslpkkxn | head
+ 2979  ./porefix obxxugmuwbtkmflzb cltwgnngtcepneipt
+ 2980  less dex
+ 2981  grep -i rxdiz dex
+ 2982  ./porefix rxdiznlqkgdhlmfqw cltwgnngtcepneipt
+ 2983  cat lat.words | ./ptestfix hlmfqwibgy
+ 2984  cat lat.words | ./ptestfix hlmfqwibgy | grep proxim
+ 2985  cat latn.10 | ./ptestfix nonslpkkxn | grep tl
+ 2986  cat latn.10 | ./ptestfix nonslpkkxn | grep tl | head
+ 2987  cat latn.10 | ./ptestfix nonslpkkxn | grep " tl"
+ 2988  cat latn.5 | ./ptestfix hmgyx | head
+ 2989  cat lat.words | ./ptestfix hmgyx | head
+ 2990  cat lat.words | ./ptestfix hmgyx | grep " l"
+ 2991  cat lat.words | ./ptestfix hmgyx | grep " le"
+ 2992  cat lat.words | ./ptestfix hlmfqwibgy | grep proxim
+ 2993  cat lat.words | ./ptestfix hmgyx | grep " lecn"
+ 2994  ./porefix nonslp tlecnw
+ 2995  cat latn.10 | ./ptestfix nonslpkkxn | grep -i dilere
+ 2996  cat lat.words | ./ptestfix nonslpkkxn | grep -i dilere
+ 2997  cat lat.words | ./ptestfix nonslpkkxn | grep -i dile
+ 2998  cat lat.words | ./ptestfix pxohfs | head
+ 2999  cat lat.words | ./ptestfix pxohfs | grep " w" | head
+ 3000  cat lat.words | ./ptestfix npa | head
+ 3001  cat lat.words | ./ptestfix amzyx | head
+ 3002  cat lat.words | ./ptestfix nxufx | head
+ 3003  cat lat.words | ./ptestfix hbtno | head
+ 3004  cat lat.words | ./ptestfix hbtno | head | grep "cc$"
+ 3005  cat lat.words | ./ptestfix kafpd | head
+ 3006  cat lat.words | ./ptestfix kafpd | grep wnpc
+ 3007  cat lat.words | ./ptestfix kafpd | grep pgwc
+ 3008  cat lat.words | ./ptestfix npa | head
+ 3009  cat lat.words | ./ptestfix npa | grep "c$" | head
+ 3010  cat lat.words | ./ptestfix nxufx | head
+ 3011  cat lat.words | ./ptestfix pxohfs | head
+ 3012  cat lat.words | ./ptestfix pxohfs | grep " w" | head
+ 3013  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head
+ 3014  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head -100 > pxo
+ 3015  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}' | cut -c2-6 | head -100 > nxu
+ 3016  cat pxo nxfu | sort | uniq -c | sort -n | tail
+ 3017  cat pxo nxu | sort | uniq -c | sort -n | tail
+ 3018  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}' | cut -c2-6 | head -20 > nxu
+ 3019  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head -20 > pxo
+ 3020  cat pxo nxu | sort | uniq -c | sort -n | tail
+ 3021  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head -30 > pxo
+ 3022  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}' | cut -c2-6 | head -30 > nxu
+ 3023  cat pxo nxu | sort | uniq -c | sort -n | tail
+ 3024  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}' | cut -c2-6 | head -40 > nxu
+ 3025  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head -40 > pxo
+ 3026  cat pxo nxu | sort | uniq -c | sort -n | tail
+ 3027  ./porefix nonslpkkxn tlecnwccpt
+ 3028  ./porefix nonslpkkxn tlecnwyyew
+ 3029  cat lat.words | ./ptestfix nonlspkkxn
+ 3030  cat lat.words | ./ptestfix nonlspkkxn | grep "di"
+ 3031  cat lat.10 | ./ptestfix nonlspkkxn | grep "di"
+ 3032  cat latn.10 | ./ptestfix nonlspkkxn | grep "di"
+ 3033  cat latn.10 | ./ptestfix nonlspkkxn | grep "di" | head
+ 3034  cat latn.10 | ./ptestfix nonlspkkxn | grep " di" | head
+ 3035  cat latn.10 | ./ptestfix nonlspkkxn | grep " di.ere"
+ 3036  cat latn.10 | ./ptestfix nonslpkkxn | grep " di.ere"
+ 3037  cat lat.words | ./ptestfix vk
+ 3038  less deelat
+ 3039  cat lat.words | ./ptestfix qgdz
+ 3040  cat lat.words | ./ptestfix qgdz | head
+ 3041  cat lat.words | ./ptestfix nxufx | head
+ 3042  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | head -100 > pxo
+ 3043  cat lat.words | ./ptestfix pxohfs | grep " w" | awk '{print $NF}' | cut -c2-6 | sort -u > pxo
+ 3044  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}' | cut -c2-6 | sort -u > nxu
+ 3045  cat latn.6 | ./ptestfix vkqgdz  | awk '{print $NF}' | cut -c1-5 | sort -u > vkq
+ 3046  cat pxo nxu vkq | sort | uniq -c | sort -n | tail
+ 3047  less vkq
+ 3048  less nxu
+ 3049  cat lat.words | ./ptestfix nxufx  | awk '{print $NF}'  | sort -u > nxu
+ 3050  cat pxo nxu vkq | sort | uniq -c | sort -n | tail
+ 3051  cat latn.5 | ./ptestfix kkxnk  | awk '{print $NF}' | cut -c1-5 | sort -u > kkx
+ 3052  cat  kkx pxo nxu vkq | sort | uniq -c | sort -n | tail
+ 3053  cat lat.words | ./ptestfix kufrtl
+ 3054  cat lat.words | ./ptestfix kufrtl | grep ppcwt
+ 3055  cat lat.words | ./ptestfix qgdz | grep tp$
+ 3056  cat lat.words | ./ptestfix zmfxiz  | head
+ 3057  ./porefix sak gcg
+ 3058  grep sak dee2
+ 3059  grep sak dee2.words 
+ 3060  cat lat.words | ./ptestfix sakdpbfxlah
+ 3061  cat lat.words | ./ptestfix sakdpbfxlah | awk '{print $NF}' | while read w; do ./pore udzmfxiz $w; done
+ 3062  cat lat.words | ./ptestfix sakdpbfxlah | awk '{print $NF}' | while read w; do ./pore ssudzmfxiz $w; done
+ 3063  ./pore perfice ppcwtgc
+ 3064  cat lat.words | ./ptestfix sakdpbfxlah | awk '{print $NF}' | while read w; do ./porefix ssudzmfxiz $w; done
+ 3065  cat lat.words | ./ptestfix sakdpbfxlah | awk '{print $NF}' | while read w; do ./porefix ssudzmfxiz $w; done | ./nglat | sort -n
+ 3066  cat lat.words | ./ptestfix sakdpbfxlah | awk '{print $NF}' | grep ^gc | while read w; do ./porefix ssudzmfxiz $w; done
+ 3067  cat lat.words | ./ptestfix pbfxlah | awk '{print $NF}' | grep ^gc | while read w; do ./porefix zmfxiz $w; done
+ 3068  cat latn.7 | ./ptestfix pbfxlah | awk '{print $NF}' | grep ^gc | while read w; do ./porefix zmfxiz $w; done
+ 3069  cat lat.words | ./ptestfix wzmtqkgc
+ 3070  cat lat.words | ./ptestfix wzmtqkgc | head
+ 3071  ./pore cpu gnl
+ 3072  ./pore tib gnl
+ 3073  ./porefix tib gnl
+ 3074  ./porefix cpu gnl
+ 3075  ./porefix ud gg
+ 3076  ./porefix zmfxiz nlenle
+ 3077  cat lat.words | ./ptestfix zmfxiz | grep fru
+ 3078  cat lat.6 | ./ptestfix zmfxiz | grep fru | head
+ 3079  cat latn.6 | ./ptestfix zmfxiz | grep fru | head
+ 3080  cat latn.5 | ./ptestfix pqlzb
+ 3081  cat latn.5 | ./ptestfix pqlzb | head
+ 3082  cat latn.6 | ./ptestfix pxohfs | grep "w....t
+ 3083  cat latn.6 | ./ptestfix pxohfs | grep "w....t$"
+ 3084  cat latn.6 | ./ptestfix pxohfs | grep "w....t$" | head
+ 3085  cat latn.6 | ./ptestfix nonslpkkxn
+ 3086  cat lat.words | ./ptestfix nonslpkkxn
+ 3087  cat lat.words | ./ptestfix nonslpkkxn | head
+ 3088  cat lat.words | ./ptestfix nonslpkkxn | grep tlecnw
+ 3089  cat lat.words | ./ptestfix nonslpkkxn | grep tl.cnw
+ 3090  cat latn.10 | ./ptestfix nonslpkkxn | grep tl.cnw
+ 3091  ./porefix okuqdusiob cwtgcggnle
+ 3092  cat lat.words | ./ptestfix eoqzoku
+ 3093  cat lat.words | ./ptestfix eoqzoku | grep tppcwt
+ 3094  cat latn.7 | ./ptestfix eoqzoku | grep tppcwt
+ 3095  ./pore qdusiob gcggnle
+ 3096  ./porefix qdusiob gcggnle
+ 3097  ./porefix qdusiol gcggnle
+ 3098  history | grep dex | grep 17
+ 3099  ./la 23 < dex | while read w; do ./porefix $w ccltwgnngtcepneiptlecnw; done > ccltw
+ 3100  ./la 23 < dex > dex.23
+ 3101  head -2 cctlw
+ 3102  head -2 ccltw
+ 3103  ./nglat < ccltw > ccltw.ng
+ 3104  vi ccltw.ng
+ 3105  past dex.23 ccltw.ng | awk 'NF > 2' | sort -k2n | tail
+ 3106  paste dex.23 ccltw.ng | awk 'NF > 2' | sort -k2n | tail
+ 3107  paste dex.23 ccltw.ng | awk 'NF > 2' | sort -k2n | tail -20
+ 3108  grep -i yogy dee2.words
+ 3109  grep -i ignisfet lat.worsd
+ 3110  grep -i ignisfet lat.words
+ 3111  ./pore yogybnobttpn epneipt
+ 3112  ./porefix yogybnobttpn epneipt
+ 3113  ./porefix yogybnobttpn epneiptlec
+ 3114  ./porefix yogybnobttpn epneiptlecnw
+ 3115  grep -i fetefic latn.*
+ 3116  ./porefix xyaybso wgnngtc
+ 3117  ./porefix materia wgnngtc
+ 3118  ./porefix oaxmz xcclt
+ 3119  ./porefix oamxz xcclt
+ 3120  grep ^.onec lat.words
+ 3121  grep ^.onec latn.5
+ 3122  grep onec lat.worsd
+ 3123  grep onec lat.words
+ 3124  echo donec | ./ptestfix oamxz
+ 3125  echo summa | ./ptestfix hbtno
+ 3126  ./porefix yogybwobttpn epneiptlecnw
+ 3127  grep -i betefic latn.7
+ 3128  grep -i benefic latn.7
+ 3129  grep -i benefic lat.words | grep -i ignis
+ 3130  grep -i ^benefic lat.words | head
+ 3131  grep -i benefic lat.words | head
+ 3132  echo ignisbeneficio | ./ptestfix yogybwobttpnze
+ 3133  ./porefix nonslpkk tlecnwgt
+ 3134  cat lat.words | ./ptestfix hbtno
+ 3135  cat lat.words | ./ptestfix hbtno | head
+ 3136  cat lat.words | ./ptestfix nxufx | head
+ 3137  cat lat.words | ./ptestfix nxufx | grep gt..t
+ 3138  ./porefix nxufx gtxxt
+ 3139  ./porefix vk gt
+ 3140  grep -i di.erent lat.wors
+ 3141  grep -i di.erent lat.words
+ 3142  echo dicerentur | ./ptestfix nonslpkkxn
+ 3143  echo dilerentur | ./ptestfix nonslpkkxn
+ 3144  cat dee2
+ 3145  echo ur | ./ptestfix xn
+ 3146  grep non dee2
+ 3147  echo r | ./ptestfix n
+ 3148  cat lat.words | ./ptestfix hbtno
+ 3149  cat lat.words | ./ptestfix hbtno | head
+ 3150  cat lat.words | ./ptestfix hbtno | head | grep ma$
+ 3151  cat lat.words | ./ptestfix hbtno | grep ma$
+ 3152  cat lat.words | ./ptestfix hbtno | cat -vet
+ 3153  cat lat.words | ./ptestfix hbtno | grep cc
+ 3154  cat lat.words | ./ptestfix hbtno | grep wcc
+ 3155  ./porefix zmf nle
+ 3156  ./porefix pxo wgt
+ 3157  cat lat.words | ./ptestfix pxohfs
+ 3158  cat lat.words | ./ptestfix pxohfs | grep ege
+ 3159  grep yogy dee2
+ 3160  cat lat.words | ./ptestfix uabawmkw
+ 3161  cat lat.words | ./ptestfix uabawmkw | grep uinum
+ 3162  ./porefix aqmkw ppcwt
+ 3163  cat lat.8 | ./ptestfix uabawmkw | grep uinum
+ 3164  cat latn.8 | ./ptestfix uabawmkw | grep uinum
+ 3165  ./porefix noa gwc
+ 3166  ./porefix npa gwc
+ 3167  history | grep 23
+ 3168  paste dex.23 ccltw.ng | awk 'NF > 2' | sort -k2n | tail -20
+ 3169  grep -i donazm dee2
+ 3170  ./porefix txgy wgnn
+ 3171  ./porefix donazmenao gtcepneipt
+ 3172  ./porefix sasltqiu lecnwgt
+ 3173  cat lat.words | ./ptestfix sasltqiu
+ 3174  cat lat.words | ./ptestfix sasltqiu | head
+ 3175  cat lat.words | ./ptestfix sasltqiu | grep aperia
+ 3176  cat latn.8 | ./ptestfix sasltqiu | grep aperia
+ 3177  cat latn.8 | ./ptestfix sasltqui | grep aperia
+ 3178  paste dex.23 ccltw.ng | awk 'NF > 2' | sort -k2n | tail -20
+ 3179  ./porefix bplzzqaoa cwtgcggnle
+ 3180  ./porefix xbplzzqaoa cwtgcggnle
+ 3181  ./porefix asi nle
+ 3182  ./porefix plzzqao cwtgcgg
+ 3183  ./porefix plzzqao ccwtgcgg
+ 3184  ./porefix plzzqao tgcggnle
+ 3185  ./porefix xb cw
+ 3186  ./porefix sasltqi lecnwgt
+ 3187  cat lat.words | ./ptestfix sasltqiu
+ 3188  cat lat.words | ./ptestfix sasltqiu | head
+ 3189  cat lat.words | ./ptestfix sasltqiu | grep peria
+ 3190  cat lat.words | ./ptestfix sasltqiu | grep peri
+ 3191  cat lat.words | ./ptestfix sasltqui | grep peri
+ 3192  cat lat.words | ./ptestfix sabltqin | grep peri
+ 3193  cat lat.words | ./ptestfix sabltqin | head
+ 3194  cat lat.words | ./ptestfix sasltqin | head
+ 3195  cat lat.words | ./ptestfix sabltqiu | head
+ 3196  cat lat.words | ./ptestfix sabltqui | head
+ 3197  cat lat.words | ./ptestfix sasltqui | head
+ 3198  cat lat.words | ./ptestfix sasltqui | grep lecn
+ 3199  cat lat.words | ./ptestfix sabltqui | grep lecn
+ 3200  cat lat.words | ./ptestfix sg | head
+ 3201  cat lat.words | ./ptestfix igsxb | grep iz
+ 3202  ./porefix smkudzdztbt cwtgcggnle
+ 3203  echo dexteritate | ./ptestfix ysmkudzdtbt
+ 3204  cat lat.words | ./ptestfix yrkwtfem
+ 3205  cat lat.words | ./ptestfix yrkwtfem | head
+ 3206  cat lat.words | ./ptestfix elkxdsl | head
+ 3207  cat lat.words | ./ptestfix elkxdsl | head |grep tp$
+ 3208  cat lat.words | ./ptestfix elkxdsl  |grep tp$
+ 3209  cat lat.words | ./ptestfix elkxdsl  |grep tp$ | head
+ 3210  ./porefix kzwtwzmutyum ppcwtgcggnle
+ 3211  grep -i rehimine lat.words
+ 3212  grep -i ^deco- lat.words
+ 3213  grep -i ^deco latn.9
+ 3214  grep -i ^deco latn.9 | head
+ 3215  ./porefix wsesltq cgg
+ 3216  echo materia | ./ptestfix wsesltq
+ 3217  ./porefix amnu neip
+ 3218  ./porefix amcu neip
+ 3219  ./porefix icfz tcep
+ 3220  ./porefix abbeicfz gnngtcep
+ 3221  grep ^qu.usque lat.words
+ 3222  ./porefix sbfo tlct
+ 3223  grep ^itte lat.words
+ 3224  echo quanta | ./ptestfix ilslft
+ 3225  ./porefix elk wgt
+ 3226  cat lat.words | ./ptestfix elkxdsl
+ 3227  cat lat.words | ./ptestfix elkxdsl | head
+ 3228  cat lat.words | ./ptestfix elkxdsl | grep "pot...
+ 3229  ./porefix l p
+ 3230  cat lat.words | ./ptestfix elkxdsl | grep "pot...s"
+ 3231  ./porefix nxufx gtlct
+ 3232  ./porefix xn lc
+ 3233  ./porefix dz tp
+ 3234  cat lat.words | ./ptestfix xxrxu | head
+ 3235  cat lat.words | ./ptestfix yrkwtfem
+ 3236  cat lat.words | ./ptestfix yrkwtfem |head
+ 3237  cat latn.9 | ./ptestfix pqlzboeid |head
+ 3238  ./porefix lgbbpppb lecnwgtl
+ 3239  ./porefix eoqzoku ctppcwt
+ 3240  ./porefix vkqgdz gtlctp
+ 3241  ./porefix qdusnb gcggnl
+ 3242  ./porefix qdusnb cggnle
+ 3243  grep -i ouata dee2
+ 3244  cat dee2
+ 3245  echo conseueuit | ./ptestfix ueccbyesf
+ 3246  echo consueuit | ./ptestfix ueccbyesf
+ 3247  echo materiasic | ./ptestfix ouataqxayq
+ 3248  ./porefix twrsyxzu nwgtlct
+ 3249  ./porefix twrsyxzu nwgtlctp
+ 3250  grep ^albifica lat.words
+ 3251  ./porefix tnrsyxzu nwgtlctp
+ 3252  grep ^acbifica 
+ 3253  grep ^acbifica lat.words
+ 3254  grep bifica lat.worsd
+ 3255  grep bifica lat.words
+ 3256* grep acbifica 
+ 3257  grep bifica lat.words
+ 3258  history | grep dex
+ 3259  ./la 42 < dex > dex.42
+ 3260  ./la 42 < dex | while read w; do ./porefix $w gwcctlwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3261  less gwcc
+ 3262  ./nglat < gwcc > gwcc.ng
+ 3263  vi gwcc.ng
+ 3264  paste dex.42 gwcc.ng | awk 'NF > 2' | sort -k2n | tail -20
+ 3265  paste dex.42 gwcc.ng | awk 'NF > 2' | sort -k2n | tail -25
+ 3266  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -270'
+ 3267  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3268  ./la 42 < dex | while read w; do ./porefix $w gwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3269  ./nglat < gwcc > gwcc.ng
+ 3270  paste dex.42 gwcc.ng | awk 'NF > 2' | sort -k2n | tail -25
+ 3271  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3272  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -250 {print NR,$0}'
+ 3273  echo gwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle | ./la 26
+ 3274  echo gwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle | ./la 26 > la.26
+ 3275  for i in `cat la.26`; do ./pore `cut -c1-26 dexl` $i; done
+ 3276  cut -c1-26 dexl
+ 3277  cut -c27-99 dexl
+ 3278  for i in `cat la.26`; do ./porefix `cut -c1-26 dexl` $i; done
+ 3279  cat la.26
+ 3280  cut -c1-26 dexl
+ 3281  echo gwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle | ./la 28 > la.28
+ 3282  for i in `cat la.28`; do ./porefix `cut -c1-28 dexl` $i; done
+ 3283  for i in `cat la.28`; do ./porefix `cut -c1-28 dexl` $i; done | grep zo
+ 3284  cat la.28
+ 3285  ./rotate
+ 3286  ./rotate < key
+ 3287  ./rotate < key | cut -c1-28
+ 3288  ./rotate < key | cut -c1-28 | while read i; do ./porefix `cut -c1-28 dexl` $i; done
+ 3289  ./rotate < key | cut -c1-28 | while read i; do ./porefix `cut -c1-28 dexl` $i; done | grep zo
+ 3290  ./rotate < key | cut -c1-28 | while read i; do ./porefix `cut -c1-28 dexl` $i; done | ./nglat | sort -n
+ 3291  echo inouodiaphanohermetic | wc
+ 3292  cut -c1-21 dex
+ 3293  cut -c1-21 dexl
+ 3294  echo inouodiaphanohermetic | ./ptestfix `cut -c1-21 dexl`
+ 3295  vi ptestfix.c
+ 3296  make ptestfix
+ 3297  diff pore-chi.c pore-chif.c
+ 3298  echo inouodiaphanohermetic | ./ptestfix `cut -c1-21 dexl`
+ 3299  ./porefix inouodiaphanohermetic tlecnwgtlctppcwtgcggn
+ 3300  echo tlecnwgtlctppcwtgcggnlegwccltwgnngtcepneip | wc
+ 3301  echo tlecnwgtlctppcwtgcggnlegwccltwgnngtcepneip | wc 
+ 3302  ./la 42 < dex | while read w; do ./porefix $w tlecnwgtlctppcwtgcggnlegwccltwgnngtcepneip; done > gwcc
+ 3303  ./nglat < gwcc > gwcc.ng
+ 3304  paste dex.42 gwcc.ng | awk 'NF > 2' | sort -k2n | tail -25
+ 3305  vi gwcc.ng
+ 3306  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3307  ./porefix inouodiaphanohermetic tlecnwgtlctppcwtgcggn
+ 3308  ./porefix inouodiaphanohermetic tlecnwgtlctppcwtgcggnle
+ 3309  ./porefix shmghozkxwxfgwphpsdzwxrqwaid tlecnwgtlctppcwtgcggnlegwccltw
+ 3310  history | grep nle
+ 3311  echo inouodiaphanohermetic | wc
+ 3312  echo tlecnwgtlctppcwtgcggn | wc
+ 3313  ./porefix inouodiaphanohermetic tlecnwgtlctppcwtgcggn
+ 3314  ./porefix xr le
+ 3315  grep ^hermetic latn.10
+ 3316  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3317  paste dex.42 gwcc.ng | awk 'NF > 2 && $2 > -250 {print NR,$0}'
+ 3318  history | grep dex
+ 3319  history | grep dex | grep 42
+ 3320  ./la 45 < dex | while read w; do ./porefix $w xxxgwcctlwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3321  ./la 45 < dex > dex.45
+ 3322  ./nglat < gwcc > gwcc.ng
+ 3323  vi gwcc.ng
+ 3324  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -250 {print NR,$0}'
+ 3325  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3326  ./la 45 < dex | while read w; do ./porefix $w xxxgwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3327  ./nglat < gwcc > gwcc.ng
+ 3328  vi gwcc.ng
+ 3329  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -270 {print NR,$0}'
+ 3330* paste dex.45 gwcc.ng | awk 
+ 3331  paste dex.45 gwcc.ng | awk 'NF > 2 {print NR,$0}' | greo 385
+ 3332  paste dex.45 gwcc.ng | awk 'NF > 2 {print NR,$0}' | grep 385
+ 3333  paste dex.45 gwcc.ng | awk 'NF > 2 {print NR,$0}' | grep 69
+ 3334  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'
+ 3335  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' | awk '{print $NF}' | cut -c4-
+ 3336  paste dex.45 gwcc.ng | grep -i qfyq
+ 3337  paste dex.45 gwcc.ng | grep -i qfyq | awk '$2 > -290'
+ 3338  grep -i athanor lat.worsd
+ 3339  grep -i athanor lat.words
+ 3340  ./porefix fpd gwc
+ 3341  grep wer$ latn.5 | head
+ 3342  grep ^..wer$ lat.words | head
+ 3343  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' | sort -k2n
+ 3344  ./porefix kafpd xpgwc
+ 3345  ./la 45 < dex | while read w; do ./porefix $w xxpgwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3346  ./nglat < gwcc > gwcc.ng
+ 3347  vi gwcc.ng
+ 3348  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' | sort -k2n
+ 3349  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' 
+ 3350  grep ^multiplic lat.words
+ 3351  grep multiplic lat.words
+ 3352  grep solific lat.words
+ 3353  grep quetril lat.words
+ 3354  grep quetril latn.9
+ 3355  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  | grep qsh
+ 3356  history | grep porefix | grep cat
+ 3357  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' 
+ 3358  ./la 45 < dex | while read w; do ./porefix $w lipgwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3359  ./nglat < gwcc > gwcc.ng
+ 3360  vi gwcc.ng
+ 3361  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}' 
+ 3362  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  > gwcc.athanore
+ 3363  ./la 45 < dex | while read w; do ./porefix $w tipgwccltwgnngtcepneiptlecnwgtlctppcwtgcggnle; done > gwcc
+ 3364  ./nglat < gwcc > gwcc.ng
+ 3365  vi gwcc.ng
+ 3366  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  > gwcc.athanora
+ 3367  cat gwcc.athanora
+ 3368  ./la 45 < dex | while read w; do ./porefix $w  tlecnwgtlctppcwtgcggnletipgwccltwgnngtcepneip;  done > gwcc
+ 3369  ./nglat < gwcc > gwcc.ng
+ 3370  vi gwcc.ng
+ 3371  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  > gwcc.final
+ 3372  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  
+ 3373  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -288 {print NR,$0}'  
+ 3374  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$0}'  
+ 3375  paste dex.45 gwcc.ng | awk 'NF > 2 && $2 > -290 {print NR,$1,$3}'  
+ 3376  cat dee2
+ 3377  df -k .
+ 3378  paste dex.45 gwcc.ng | grep pqlzb
+ 3379  paste dex.45 gwcc.ng | grep pqlzb | sort -k2n
+ 3380  cat dee2
+ 3381  paste dex.45 gwcc.ng | grep gbppp
+ 3382  paste dex.45 gwcc.ng | grep gbbppp
+ 3383  paste dex.45 gwcc.ng | grep gbbppp | sort -k2n
+ 3384  cat key
+ 3385  history | grep 45
+ 3386  cat > key
+ 3387  ./rotate < key > key.rotate
+ 3388  for i in `cat key.rotate`; do ./porefix gbbpppb $i; done
+ 3389  for i in `cat key.rotate`; do ./porefix gbbpppb $i; done | ./nglat | sort -n
+ 3390  for i in `cat key.rotate`; do ./porefix gbbpppb $i; done | cut -c2- | ./nglat | sort -n
+ 3391  for i in `cat key.rotate`; do ./porefix gbbpppb $i; done | cut -c1-6 | ./nglat | sort -n
+ 3392  cat dee2
+ 3393  for i in `cat key.rotate`; do ./porefix eoqzoku $i; done | ./nglat
+ 3394  for i in `cat key.rotate`; do ./porefix eoqzoku $i; done | ./nglat | sort -n
+ 3395  cat dee2
+ 3396  for i in `cat key.rotate`; do ./porefix qdusiob $i; done | ./nglat | sort -n
+ 3397  for i in `cat key.rotate`; do ./porefix qdusnb $i; done | ./nglat | sort -n
+ 3398  for i in `cat key.rotate`; do ./porefix eoqzoku $i; done | ./nglat | sort -n
+ 3399  for i in `cat key.rotate`; do ./porefix eoqzoku $i; done | grep -n uellera
+ 3400  sed -n 7p key.rotate
+ 3401  ./porefix  eoqzoku gtcltpp
+ 3402  ./porefix  eoqzoku glctppc
+ 3403  ./porefix  eoqzoku gtlctpp
+ 3404  ./porefix  gbbpppb ptlecnw
+ 3405  cat key.rotate
+ 3406  for i in `cat key.rotate`; do ./porefix xobbddz $i; done | ./nglat | sort -n
+ 3407  for i in `cat key.rotate`; do ./porefix itabxbt $i; done | ./nglat | sort -n
+ 3408  for i in `cat key.rotate`; do ./porefix nrxitabxbt $i; done | ./nglat | sort -n
+ 3409  for i in `cat key.rotate`; do ./porefix itabxbt $i; done | ./nglat | sort -n
+ 3410  for i in `cat key.rotate`; do ./porefix yurstzgxo $i; done | ./nglat | sort -n
+ 3411  for i in `cat key.rotate`; do ./porefix nrxita $i; done | ./nglat | sort -n
+ 3412  for i in `cat key.rotate`; do ./porefix itabxbt $i; done | ./nglat | sort -n
+ 3413  for i in `cat key.rotate`; do ./porefix wpguwx $i; done | ./nglat | sort -n
+ 3414  for i in `cat key.rotate`; do ./porefix xobbddz $i; done | ./nglat | sort -n
+ 3415  cat dee2 | grep wpguw
+ 3416  for i in `cat key.rotate`; do ./porefix gbbpppb $i; done | grep utyemi
+ 3417  for i in `cat key.rotate`; do ./porefix xobbddzbod $i; done | ./nglat | sort -n
+ 3418  for i in `cat key.rotate`; do ./porefix fpeskcdxt $i; done | ./nglat | sort -n
+ 3419  for i in `cat key.rotate`; do ./porefix sgco $i; done | ./nglat | sort -n
+ 3420  for i in `cat key.rotate`; do ./porefix sgco $i; done | grep l.ne
+ 3421  for i in `cat key.rotate`; do ./porefix horuuod $i; done | ./nglat | sort -n
+ 3422  for i in `cat key.rotate`; do ./porefix kybserggenfls $i; done 
+ 3423  for i in `cat key.rotate`; do ./porefix kybserggenfls $i; done  | ./nglat | sort -n
+ 3424  for i in `cat key.rotate`; do ./porefix qabmugxubs $i; done  | ./nglat | sort -n
+ 3425  for i in `cat key.rotate`; do ./porefix qabinugxubs $i; done  | ./nglat | sort -n
+ 3426  for i in `cat key.rotate`; do ./porefix qabmugxubs $i; done  | ./nglat | sort -n
+ 3427  for i in `cat key.rotate`; do ./porefix qabmugxubstmtnsznolxm $i; done  | ./nglat | sort -n
+ 3428  for i in `cat key.rotate`; do ./porefix ditqlx $i; done  | ./nglat | sort -n
+ 3429  for i in `cat key.rotate`; do ./porefix elopaduqlx $i; done  | ./nglat | sort -n
+ 3430  for i in `cat key.rotate`; do ./porefix elopaditqlx $i; done  | ./nglat | sort -n
+ 3431  for i in `cat key.rotate`; do ./porefix qabmugxubs $i; done  | ./nglat | sort -n
+ 3432  for i in `cat key.rotate`; do ./porefix qabinugxubs $i; done  | ./nglat | sort -n
+ 3433  for i in `cat key.rotate`; do ./porefix gabinugxubs $i; done  | ./nglat | sort -n
+ 3434  for i in `cat key.rotate`; do ./porefix gabmugxubs $i; done  | ./nglat | sort -n
+ 3435  gerp sterigti lat.words
+ 3436  grep sterigti lat.words
+ 3437  grep sterigti latn.*
+ 3438  grep scende latn.*
+ 3439  for i in `cat key.rotate`; do ./porefix gabmugxubs $i; done  | ./nglat | sort -n
+ 3440  for i in `cat key.rotate`; do ./porefix gabinugxubs $i; done  | ./nglat | sort -n
+ 3441  history | grep nrx
+ 3442  for i in `cat key.rotate`; do ./porefix nrxitabxbt $i; done | ./nglat | sort -n
+ 3443  for i in `cat key.rotate`; do ./porefix abxbtwpguw $i; done | ./nglat | sort -n
+ 3444  for i in `cat key.rotate`; do ./porefix abxbtnpguw $i; done | ./nglat | sort -n
+ 3445  for i in `cat key.rotate`; do ./porefix nrxitabxbt $i; done | ./nglat | sort -n
+ 3446  for i in `cat key.rotate`; do ./porefix nrx $i; done 
+ 3447  for i in `cat key.rotate`; do ./porefix nrx $i; done  > nrx.3
+ 3448  for i in `cat key.rotate`; do ./porefix nry $i; done  > nry.3
+ 3449  fgrep -f nrx.3 lat.words
+ 3450  fgrep -w -f nrx.3 lat.words
+ 3451  fgrep -w -f nry.3 lat.words
+ 3452  for i in `cat key.rotate`; do ./porefix nrxit $i; done  | grep lac
+ 3453  for i in `cat key.rotate`; do ./porefix itabxbt $i; done  | grep lac
+ 3454  for i in `cat key.rotate`; do ./porefix itabxbt $i; done  
+ 3455  for i in `cat key.rotate`; do ./porefix itabxbt $i; done   | ./nglat | sort -n
+ 3456  for i in `cat key.rotate`; do ./porefix abxbt $i; done   > abxbt.5
+ 3457  ca abxbt.5
+ 3458  cat abxbt.5
+ 3459  fgrep abxbt.5 lat.5
+ 3460  fgrep abxbt.5 latn.5
+ 3461  for i in `cat key.rotate`; do ./porefix nrxit $i; done   > nrxit.5
+ 3462  fgrep nrxit.5 latn.5
+ 3463  grep rocrat latn.6
+ 3464  for i in `cat key.rotate`; do ./porefix dkyurzkyx $i; done   
+ 3465  for i in `cat key.rotate`; do ./porefix dkyurzkyx $i; done    | ./nglat | sort -n
+ 3466  for i in `cat key.rotate`; do ./porefix oqyipgu $i; done    | ./nglat | sort -n
+ 3467  for i in `cat key.rotate`; do ./porefix lfqfhiebub $i; done    | ./nglat | sort -n
+ 3468  for i in `cat key.rotate`; do ./porefix qdusnl $i; done    | ./nglat | sort -n
+ 3469  for i in `cat key.rotate`; do ./porefix eoqzokuqdusnl $i; done    | ./nglat | sort -n
+ 3470  for i in `cat key.rotate`; do ./porefix eoqzokugdusnl $i; done    | ./nglat | sort -n
+ 3471  for i in `cat key.rotate`; do ./porefix eoqzokugdusrol $i; done    | ./nglat | sort -n
+ 3472  for i in `cat key.rotate`; do ./porefix eoqzokugdusnl $i; done    | ./nglat | sort -n
+ 3473  grep volcimo lat.words
+ 3474  for i in `cat key.rotate`; do ./porefix agqptbwxw $i; done    | ./nglat | sort -n
+ 3475  for i in `cat key.rotate`; do ./porefix agqptbexw $i; done    | ./nglat | sort -n
+ 3476  for i in `cat key.rotate`; do ./porefix abbeicfzamiu $i; done    | ./nglat | sort -n
+ 3477  for i in `cat key.rotate`; do ./porefix fsrdsysyd $i; done    | ./nglat | sort -n
+ 3478  for i in `cat key.rotate`; do ./porefix gpxbssg $i; done    | ./nglat | sort -n
+ 3479  for i in `cat key.rotate`; do ./porefix gpxbssgbtagsqno $i; done    | ./nglat | sort -n
+ 3480  for i in `cat key.rotate`; do ./porefix xwmulgks $i; done    | ./nglat | sort -n
+ 3481  for i in `cat key.rotate`; do ./porefix ccnegkco $i; done    | ./nglat | sort -n
+ 3482  for i in `cat key.rotate`; do ./porefix xwmrlgks $i; done    | ./nglat | sort -n
+ 3483  for i in `cat key.rotate`; do ./porefix xwmvlgks $i; done    | ./nglat | sort -n
+ 3484  for i in `cat key.rotate`; do ./porefix xwmrlgks $i; done    | ./nglat | sort -n
+ 3485  for i in `cat key.rotate`; do ./porefix xwmrgks $i; done    | ./nglat | sort -n
+ 3486  for i in `cat key.rotate`; do ./porefix hokfuddgm $i; done    | ./nglat | sort -n
+ 3487  for i in `cat key.rotate`; do ./porefix bokfuddgm $i; done    | ./nglat | sort -n
+ 3488  for i in `cat key.rotate`; do ./porefix apbrmxb $i; done    | ./nglat | sort -n
+ 3489  for i in `cat key.rotate`; do ./porefix apbumxb $i; done    | ./nglat | sort -n
+ 3490  for i in `cat key.rotate`; do ./porefix oqyipguiva $i; done    | ./nglat | sort -n
+ 3491  for i in `cat key.rotate`; do ./porefix oqyipguira $i; done    | ./nglat | sort -n
+ 3492  for i in `cat key.rotate`; do ./porefix tuuxpanylege $i; done    | ./nglat | sort -n
+ 3493  for i in `cat key.rotate`; do ./porefix tuuypanylege $i; done    | ./nglat | sort -n
+ 3494  for i in `cat key.rotate`; do ./porefix iabbwobs $i; done    | ./nglat | sort -n
+ 3495  grep asonaurea latn.10
+ 3496  grep sonaure latn.7
+ 3497  for i in `cat key.rotate`; do ./porefix pqlzbpoeid $i; done    | ./nglat | sort -n
+ 3498  grep ason lat.words | head
+ 3499  grep ason latn.5 | head
+ 3500  grep ^.ason latn.5 | head
+ 3501  for i in `cat key.rotate`; do ./porefix tabybt $i; done    | ./nglat | sort -n
+ 3502  for i in `cat key.rotate`; do ./porefix vqwaid $i; done    | ./nglat | sort -n
+ 3503  for i in `cat key.rotate`; do ./porefix sicalteriasonaureafeli $i; done    | ./nglat | grep eid
+ 3504  for i in `cat key.rotate`; do ./porefix ignisbeneficio $i; done    | ./nglat | grep yogy
+ 3505  for i in `cat key.rotate`; do ./porefix iahbwobs $i; done    | ./nglat | sort -n
+ 3506  for i in `cat key.rotate`; do ./porefix nrxitabxht $i; done    | ./nglat | sort -n
+ 3507  for i in `cat key.rotate`; do ./porefix wrxitabxht $i; done    | ./nglat | sort -n
+ 3508  for i in `cat key.rotate`; do ./porefix nxxitabxht $i; done    | ./nglat | sort -n
+ 3509  for i in `cat key.rotate`; do ./porefix nvxitabxht $i; done    | ./nglat | sort -n
+ 3510  for i in `cat key.rotate`; do ./porefix nryitabxht $i; done    | ./nglat | sort -n
+ 3511  for i in `cat key.rotate`; do ./porefix tincturam $i; done    | ./nglat | sort -n
+ 3512  for i in `cat key.rotate`; do ./porefix tincturam $i; done    | grep cdxt
+ 3513  histy
+ 3514  history
+ 3515  for i in `cat key.rotate`; do ./porefix igsxb $i; done    | grep cdxt
+ 3516  for i in `cat key.rotate`; do ./porefix igsxb $i; done    
+ 3517  for i in `cat key.rotate`; do ./porefix igsxb $i; done    | grep soli
+ 3518  for i in `cat key.rotate`; do ./porefix igsxh $i; done    | grep soli
+ 3519  for i in `cat key.rotate`; do ./porefix asnno $i; done    
+ 3520  for i in `cat key.rotate`; do ./porefix asnno $i; done     | grep ^pi
+ 3521  for i in `cat key.rotate`; do ./porefix asimo $i; done     | grep ^pi
+ 3522  ls -trl
+ 3523  history | grep dex
+ 3524  history > dee.history
