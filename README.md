@@ -1,6 +1,6 @@
 # ArthurDee
 
-C code for deciphering the Arthur Dee manuscript.
+C code for deciphering the Arthur Dee manuscript for the paper "Solving an alchemical cipher in a shared notebook of John and Arthur Dee" by Bean, Lang and Piorko, to appear in Proceedings of Histocrypt 2022
 
 The "dee2.history" file is a Bash history list of commands tried in the deciphering process.
 
