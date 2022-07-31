@@ -2,6 +2,8 @@
 
 C code for deciphering the Arthur Dee manuscript for the paper ["Solving an alchemical cipher in a shared notebook of John and Arthur Dee" by Bean, Lang and Piorko, from Proceedings of Histocrypt 2022](https://doi.org/10.3384/ecp188388).
 
+[Slides from the presentation in Amsterdam in June 2022](http://elvumgar.fea.st.user.fm/presentations/2022-06-20%20dee.pdf) are available.
+
 A [Google Sheets illustration of the decipherment](https://docs.google.com/spreadsheets/d/1SIB59QxKms1ka8KCQtXwLYEOujf7tI5a/edit?usp=sharing&ouid=116745699215337849405&rtpof=true&sd=true) is available.
 
 [The Conversation](https://theconversation.com/deciphering-the-philosophers-stone-how-we-cracked-a-400-year-old-alchemical-cipher-167900) and [Atlas Obscura](https://www.atlasobscura.com/articles/medieval-alchemist-secret-code) have articles about the manuscript and the process.
